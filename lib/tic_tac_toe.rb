@@ -99,6 +99,18 @@ class TicTacToe
   end 
   
   def play 
+    
+    until over? do
+      turn 
+    end 
+    
+    if won?
+      puts "Well Done!"
+    else draw?
+      puts "It's A Tie!"
+    end 
+    
+  end 
   
   
 end 
