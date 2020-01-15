@@ -105,7 +105,7 @@ class TicTacToe
     end 
     
     if won?
-      puts "Well Done!"
+      puts "Well Done #{!current_player}!"
     else draw?
       puts "It's A Tie!"
     end 
