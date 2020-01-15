@@ -80,6 +80,7 @@ class TicTacToe
     else won?
       false
     end 
+    true
   end 
     
   
