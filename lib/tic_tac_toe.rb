@@ -81,6 +81,11 @@ class TicTacToe
       false
     end 
   end 
-    
+  
+  def over?
+    if draw?
+      true 
+    end 
+  end 
   
 end 
