@@ -70,8 +70,8 @@ class TicTacToe
    false
   end 
   
-  def full?(i)
-    if @board.any? { |i| i " "  }
+  def full?
+    if @board.any? { |s| s " "  }
       true 
     end 
   end 
