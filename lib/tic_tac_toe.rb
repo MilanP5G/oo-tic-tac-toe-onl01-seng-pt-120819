@@ -71,8 +71,7 @@ class TicTacToe
   end 
   
   def full?
-    if @board.any? { |i| i ==  " "  }
-      true 
+    if !@board.any? { |i| i ==  " "  }
     end 
   end 
     
