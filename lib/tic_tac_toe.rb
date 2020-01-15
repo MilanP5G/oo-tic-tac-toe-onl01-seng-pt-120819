@@ -86,7 +86,7 @@ class TicTacToe
     if draw?
       true
     else won?
-      false 
+      true  
     end 
   end 
   
