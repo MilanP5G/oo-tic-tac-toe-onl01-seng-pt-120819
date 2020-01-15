@@ -95,7 +95,8 @@ class TicTacToe
   def winner
     if @board.over? do | i |
       i token
-    end 
+    end
+  end 
     token 
   end 
   
