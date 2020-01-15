@@ -71,7 +71,7 @@ class TicTacToe
   end 
   
   def full?
-    if @board[index] == "X" || @board[index] == "O"
+    if @board.any (|i| i " ")
       true 
     end 
   end 
