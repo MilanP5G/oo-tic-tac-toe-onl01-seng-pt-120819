@@ -93,11 +93,7 @@ class TicTacToe
   end 
   
   def winner
-    if over? do | i |
-      i token
-    end
-  end 
-    token 
+    @board.each do { | i | i i
   end 
   
   
