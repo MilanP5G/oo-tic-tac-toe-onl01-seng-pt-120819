@@ -71,7 +71,7 @@ class TicTacToe
   end 
   
   def full?
-    if index.between?(0, 8) == @board[index] == "X" || @board[index] == "O"
+    if @board[index] == "X" || @board[index] == "O"
       true 
     end 
   end 
