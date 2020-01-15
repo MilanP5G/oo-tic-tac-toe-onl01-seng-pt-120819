@@ -72,7 +72,6 @@ class TicTacToe
   
   def full?
      !@board.any? { |i| i ==  " "  }
-    end 
   end 
     
   
